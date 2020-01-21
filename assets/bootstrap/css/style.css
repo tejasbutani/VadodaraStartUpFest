@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  text-align: center;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+.big-heading {
+  font-family: "Montserrat";
+  color: #21377a;
+  font-size: 3.3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#title {
+  text-align: left;
+}
+
+.container-fluid {
+  height: 100%;
+  padding: 3% 15% 13%;
+  color: #ffff;
+}
+
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-top: 6px;
+  margin-left: 42px;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.intro {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#title h1 {
+  padding-left: 50px;
+}
+
+#title h3 {
+  padding-left: 50px;
+}
+
+#title button {
+  margin-left: 50px;
+}
+
+.quote {
+  font-family: Montserrat;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 15px;
+  font-size: 22px;
+  line-height: 32px;
+  color: #0E297B;
+}
+
+.details {
+  font-family: Montserrat;
+  font-weight: normal;
+  margin-top: 5px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #0E297B;
+}
+
+.registration-button {
+  font-family: Ubuntu;
+  margin: 5% 3% 5% 0;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.title-image {
+  margin-top: 10px;
+  margin-left: -60px;
+  width: 110%;
+  position: absolute;
+}
+
+#Resgisteration {
+  text-align: center;
+  padding: 100px;
+}
+
+.register-column {
+  padding: 3% 2%;
+}
+
+.copyright {
+  text-align: left;
+}
+
+@media (max-width: 990px) {
+
+  #title {
+    margin-top: -60px;
+    text-align: center;
+  }
+
+  #title h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 6px;
+  }
+
+  #title h3 {
+    padding-left: 0;
+  }
+
+  #title button {
+    margin-left: 0;
+  }
+
+  .LogoName{
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .title-image {
+    width: 100%;
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -18px;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}

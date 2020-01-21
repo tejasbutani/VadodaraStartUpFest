@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+.LogoName {
+    font-size: 30px;
+    margin-left: 50px;
+  }
+  
+.navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 6px;
+    margin-left: 42px;
+  }
+  
+.nav-item {
+    padding: 0 5px;
+  }
+  
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+#Resgisteration {
+    text-align: center;
+    padding: 5px 180px;
+}
+
+.Message {
+  font-family: "Montserrat";
+  color: #21377a;
+}
+
+.Message h2 {
+    font-weight: 600;
+}
+
+.register-column {
+    justify-content: center;
+    padding: 3% 2%;
+}
+
+.Attendee {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+
+.Attendee img {
+    height: 300px;
+}
+
+.Participant {
+    background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+}
+
+.Participant img {
+    height: 300px;
+}
+
+.rounded {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    text-align: left;
+  }
+
+@media (max-width: 767px) {
+    .LogoName {
+        font-size: 25px;
+        margin-left: 10px;
+    }
+
+    #Resgisteration {
+        padding: 5px 90px;
+    }
+
+    .copyright {
+        text-align: center;
+      }
+
+}

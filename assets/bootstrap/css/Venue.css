@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: "Montserrat";
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  }
+
+  .navbar-brand {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 6px;
+    margin-left: 42px;
+  }
+  
+  .nav-item {
+    padding: 0 5px;
+  }
+  
+  .nav-link {
+    font-family: "Montserrat";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .venue-container {
+    padding: 0px 30px 10px 20px;
+    box-sizing: border-box;
+    padding-bottom: 70px;
+  }
+
+  .venue-container h1 {
+    font-family: "Montserrat";
+    color: #21377a;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+
+  .venue {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #map {
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+  }
+
+  .location-container h3 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+
+  .location-container p {
+    font-size: 17px;
+    opacity: .6;
+    margin-top: -1px
+  }
+
+  .location-container button {
+    width: 150px;
+    height: 40px;
+    padding: 0;
+    font-family: "Montserrat";
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: #4d6afd;
+    font-weight: bold;
+    transition: .3s ease;
+  }
+
+  .location-container button a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .location-container button:hover {
+    box-shadow: 3px 3px 4px gray, -3px -3px 4px #eeeeee;
+  }
+
+  .location-container img {
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+  }
+
+  .copyright {
+    text-align: left;
+  }
+
+  @media (max-width:px) {
+    .location-container {
+      margin-bottom: 30px;
+    }
+
+    #map {
+
+      height: 350px;
+      margin-left: 10px;
+    }
+
+    .location-container img {
+      height: 300px;
+    }
+
+    .location-container h3 {
+      font-size: 22px;
+
+    }
+
+    .location-container p {
+      font-size: 15px;
+
+    }
+
+    .location-container button {
+      width: 130px;
+      height: 35px;
+      font-size: 15px;
+    }
+
+    .venue-container h1 {
+      font-size: 35px;
+    }
+
+    .copyright {
+      text-align: center;
+    }
+
+
+  }
