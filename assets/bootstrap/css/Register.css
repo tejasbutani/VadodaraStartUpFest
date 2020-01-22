@@ -78,7 +78,7 @@ body {
     text-align: left;
   }
 
-@media (max-width: 767px) {
+@media (max-width: 990px) {
     .LogoName {
         font-size: 25px;
         margin-left: 10px;
